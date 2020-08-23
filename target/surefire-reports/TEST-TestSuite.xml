@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.32" tests="20" errors="0" skipped="0" failures="18">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\code\idea\auto_api_v8\target\test-classes;E:\code\idea\auto_api_v8\target\classes;C:\Users\puhongjun\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\puhongjun\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\puhongjun\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\puhongjun\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\puhongjun\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\puhongjun\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\puhongjun\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\puhongjun\.m2\repository\io\qameta\allure\allure-testng\2.13.0\allure-testng-2.13.0.jar;C:\Users\puhongjun\.m2\repository\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;C:\Users\puhongjun\.m2\repository\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;C:\Users\puhongjun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\puhongjun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\puhongjun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\puhongjun\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\puhongjun\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\puhongjun\.m2\repository\cn\afterturn\easypoi-annotation\4.0.0\easypoi-annotation-4.0.0.jar;C:\Users\puhongjun\.m2\repository\cn\afterturn\easypoi-base\4.0.0\easypoi-base-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\puhongjun\.m2\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\puhongjun\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\puhongjun\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\puhongjun\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\puhongjun\.m2\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;C:\Users\puhongjun\.m2\repository\ognl\ognl\3.2.6\ognl-3.2.6.jar;C:\Users\puhongjun\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\puhongjun\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\puhongjun\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\puhongjun\.m2\repository\com\alibaba\fastjson\1.2.62\fastjson-1.2.62.jar;C:\Users\puhongjun\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\puhongjun\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\puhongjun\.m2\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;C:\Users\puhongjun\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\PUHONG~1\AppData\Local\Temp\surefire3604051123845188316\surefirebooter7202715947575024587.jar C:\Users\puhongjun\AppData\Local\Temp\surefire3604051123845188316 2020-08-23T12-14-11_127-jvmRun1 surefire8345518790599035625tmp surefire_0235152607512002787tmp"/>
+    <property name="surefire.test.class.path" value="E:\code\idea\auto_api_v8\target\test-classes;E:\code\idea\auto_api_v8\target\classes;C:\Users\puhongjun\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\puhongjun\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\puhongjun\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\puhongjun\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\puhongjun\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\puhongjun\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\puhongjun\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\puhongjun\.m2\repository\io\qameta\allure\allure-testng\2.13.0\allure-testng-2.13.0.jar;C:\Users\puhongjun\.m2\repository\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;C:\Users\puhongjun\.m2\repository\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;C:\Users\puhongjun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\puhongjun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\puhongjun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\puhongjun\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\puhongjun\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\puhongjun\.m2\repository\cn\afterturn\easypoi-annotation\4.0.0\easypoi-annotation-4.0.0.jar;C:\Users\puhongjun\.m2\repository\cn\afterturn\easypoi-base\4.0.0\easypoi-base-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\puhongjun\.m2\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\puhongjun\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\puhongjun\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;C:\Users\puhongjun\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\puhongjun\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\puhongjun\.m2\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;C:\Users\puhongjun\.m2\repository\ognl\ognl\3.2.6\ognl-3.2.6.jar;C:\Users\puhongjun\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\puhongjun\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\puhongjun\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\puhongjun\.m2\repository\com\alibaba\fastjson\1.2.62\fastjson-1.2.62.jar;C:\Users\puhongjun\.m2\repository\mysql\mysql-connector-java\8.0.16\mysql-connector-java-8.0.16.jar;C:\Users\puhongjun\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\puhongjun\.m2\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;C:\Users\puhongjun\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="E:\code\idea\auto_api_v8\target/allure-results"/>
+    <property name="user.home" value="C:\Users\puhongjun"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk\jre"/>
+    <property name="basedir" value="E:\code\idea\auto_api_v8"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\PUHONG~1\AppData\Local\Temp\surefire3604051123845188316\surefirebooter7202715947575024587.jar;C:\Users\puhongjun\.m2\repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk\jre\lib\resources.jar;D:\Java\jdk\jre\lib\rt.jar;D:\Java\jdk\jre\lib\sunrsasign.jar;D:\Java\jdk\jre\lib\jsse.jar;D:\Java\jdk\jre\lib\jce.jar;D:\Java\jdk\jre\lib\charsets.jar;D:\Java\jdk\jre\lib\jfr.jar;D:\Java\jdk\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="puhongjun"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\puhongjun\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PUHONG~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="E:\code\idea\auto_api_v8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;%JAVA_HOME%\bin;D:\Xftp\;D:\Xshell\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\apache-maven-3.6.3\bin;D:\apache-jmeter-5.2.1\bin;C:\Users\puhongjun\AppData\Local\Microsoft\WindowsApps;;D:\fiddler;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test" classname="com.api.cases.RegisterCase" time="1.824">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+</failure>
+    <system-out><![CDATA[[ INFO ]2020-08-23 12:14:13.013 method: com.api.cases.BaseCase.init(BaseCase.java:29)-----  ===============================init======================================
+[ INFO ]2020-08-23 12:14:13.013 method: com.api.cases.BaseCase.init(BaseCase.java:45)-----  AuthenticationUtils.VARS======================{${amount}=1000, ${adminLogin_mb}=13322222222, ${register_mb}=13355555555, ${register_pwd}=12345678, ${url}=api.lemonban.com}
+sql语句为空
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RegisterCase" time="0.1">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:15.015 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RegisterCase" time="0.094">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RegisterCase" time="0.096">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:16 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:16.016 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RegisterCase" time="1.884">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+</failure>
+    <system-out><![CDATA[1
+[ INFO ]2020-08-23 12:14:17.017 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:17 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:17.017 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:17.017 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:17.017 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+1
+l1=1,l2=1
+数据库断言失败
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RegisterCase" time="0.162">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:18 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：true
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.LoginCase" time="0.138">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+</failure>
+    <system-out><![CDATA[[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+${token}:null
+${member_id}:null
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.LoginCase" time="0.097">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+</failure>
+    <system-out><![CDATA[[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+${token}:null
+${member_id}:null
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.LoginCase" time="0.112">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+</failure>
+    <system-out><![CDATA[[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+${token}:null
+${member_id}:null
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.LoginCase" time="0.165">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+</failure>
+    <system-out><![CDATA[[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:19 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:18.018 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+${token}:null
+${member_id}:null
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.LoginCase" time="0.169"/>
+  <testcase name="test" classname="com.api.cases.RechargeCase" time="0.095">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDU0OTcsImV4cCI6MTU5ODE1NjM1OX0.8TFe5Q1ffbGTD6iTqfzQwpQq5Ce6L-9HHefSxktVh94qOZ06OeHP7Uy-jxs4mUKEDZ4vJacTZ_zWl_kswxybMg
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:20 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RechargeCase" time="0.125">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDU0OTcsImV4cCI6MTU5ODE1NjM1OX0.8TFe5Q1ffbGTD6iTqfzQwpQq5Ce6L-9HHefSxktVh94qOZ06OeHP7Uy-jxs4mUKEDZ4vJacTZ_zWl_kswxybMg
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:20 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RechargeCase" time="0.106">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDU0OTcsImV4cCI6MTU5ODE1NjM1OX0.8TFe5Q1ffbGTD6iTqfzQwpQq5Ce6L-9HHefSxktVh94qOZ06OeHP7Uy-jxs4mUKEDZ4vJacTZ_zWl_kswxybMg
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:20 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RechargeCase" time="0.109">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+</failure>
+    <system-out><![CDATA[sql语句为空
+Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDU0OTcsImV4cCI6MTU5ODE1NjM1OX0.8TFe5Q1ffbGTD6iTqfzQwpQq5Ce6L-9HHefSxktVh94qOZ06OeHP7Uy-jxs4mUKEDZ4vJacTZ_zWl_kswxybMg
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:20 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":2,"msg":"余额必须为数值型","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:19.019 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+sql语句为空
+sql为空，不需要数据库断言
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.RechargeCase" time="1.319"/>
+  <testcase name="test" classname="com.api.cases.AddCase" time="0.129">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AddCase.test(AddCase.java:44)
+</failure>
+    <system-out><![CDATA[Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDU0OTcsImV4cCI6MTU5ODE1NjM1OX0.8TFe5Q1ffbGTD6iTqfzQwpQq5Ce6L-9HHefSxktVh94qOZ06OeHP7Uy-jxs4mUKEDZ4vJacTZ_zWl_kswxybMg
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:21 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1004,"msg":"JSON parse error: Unexpected character ('ï' (code 239)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('ï' (code 239)): was expecting comma to separate Object entries\n at [Source: (PushbackInputStream); line: 1, column: 66]","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+${loan_id}:null
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.AdminLoginCase" time="0.179">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AdminLoginCase.test(AdminLoginCase.java:41)
+</failure>
+    <system-out><![CDATA[[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":0,"msg":"OK","data":{"id":2105267,"leave_amount":8000.0,"mobile_phone":"13322222222","reg_name":"小柠檬","reg_time":"2020-08-22 23:47:00.0","type":0,"token_info":{"token_type":"Bearer","expires_in":"2020-08-23 12:19:22","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDUyNjcsImV4cCI6MTU5ODE1NjM2Mn0.ePEO_W5Q5wUcIc1dGwY6hq5p1BdflHqvMDozyG5omTFiCC-QxzvL55aQq-ps_Nv1ebbZXewF2pe7l_FhpH-cZg"}},"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+${token}:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDUyNjcsImV4cCI6MTU5ODE1NjM2Mn0.ePEO_W5Q5wUcIc1dGwY6hq5p1BdflHqvMDozyG5omTFiCC-QxzvL55aQq-ps_Nv1ebbZXewF2pe7l_FhpH-cZg
+${member_id}:2105267
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.AuditCase" time="0.097">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AuditCase.test(AuditCase.java:44)
+</failure>
+    <system-out><![CDATA[Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDUyNjcsImV4cCI6MTU5ODE1NjM2Mn0.ePEO_W5Q5wUcIc1dGwY6hq5p1BdflHqvMDozyG5omTFiCC-QxzvL55aQq-ps_Nv1ebbZXewF2pe7l_FhpH-cZg
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1004,"msg":"JSON parse error: Unrecognized token '$': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token '$': was expecting ('true', 'false' or 'null')\n at [Source: (PushbackInputStream); line: 1, column: 14]","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.api.cases.InvestCase" time="0.129">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.InvestCase.test(InvestCase.java:44)
+</failure>
+    <system-out><![CDATA[Recharge token:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIxMDUyNjcsImV4cCI6MTU5ODE1NjM2Mn0.ePEO_W5Q5wUcIc1dGwY6hq5p1BdflHqvMDozyG5omTFiCC-QxzvL55aQq-ps_Nv1ebbZXewF2pe7l_FhpH-cZg
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:203)-----  headers :[Server: nginx/1.4.2, Date: Sun, 23 Aug 2020 04:14:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:207)-----  content-Type :[Content-Type: application/json;charset=UTF-8]
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:212)-----  body :{"code":1004,"msg":"JSON parse error: Unrecognized token '$': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token '$': was expecting ('true', 'false' or 'null')\n at [Source: (PushbackInputStream); line: 1, column: 36]","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+[ INFO ]2020-08-23 12:14:21.021 method: com.api.utils.HttpUtils.printResponse(HttpUtils.java:215)-----  status :200
+响应断言结果：false
+]]></system-out>
+  </testcase>
+</testsuite>

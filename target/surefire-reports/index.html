@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 18 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-xxx项目">
+              <span class="suite-name border-failed">xxx项目</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-xxx项目">
+                    <span>E:\code\idea\auto_api_v8\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-xxx项目">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-xxx项目">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-xxx项目">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-xxx项目">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-xxx项目">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-xxx项目">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 18 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-xxx项目" class="hide-methods failed suite-xxx项目"> (hide)</a> <!-- hide-methods failed suite-xxx项目 -->
+                      <a href="#" panel-name="suite-xxx项目" class="show-methods failed suite-xxx项目"> (show)</a> <!-- show-methods failed suite-xxx项目 -->
+                    </span>
+                    <div class="method-list-content failed suite-xxx项目">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RegisterCase" hash-for-method="test(CaseInfo{caseId=5, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">test(CaseInfo{caseId=5, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RegisterCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">test(CaseInfo{caseId=1, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RegisterCase" hash-for-method="test(CaseInfo{caseId=3, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">test(CaseInfo{caseId=3, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RegisterCase" hash-for-method="test(CaseInfo{caseId=2, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">test(CaseInfo{caseId=2, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RegisterCase" hash-for-method="test(CaseInfo{caseId=6, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">test(CaseInfo{caseId=6, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RegisterCase" hash-for-method="test(CaseInfo{caseId=4, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">test(CaseInfo{caseId=4, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.LoginCase" hash-for-method="test(CaseInfo{caseId=4, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">test(CaseInfo{caseId=4, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.LoginCase" hash-for-method="test(CaseInfo{caseId=3, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">test(CaseInfo{caseId=3, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.LoginCase" hash-for-method="test(CaseInfo{caseId=2, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">test(CaseInfo{caseId=2, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.LoginCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">test(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RechargeCase" hash-for-method="test(CaseInfo{caseId=3, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">test(CaseInfo{caseId=3, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RechargeCase" hash-for-method="test(CaseInfo{caseId=2, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">test(CaseInfo{caseId=2, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RechargeCase" hash-for-method="test(CaseInfo{caseId=4, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">test(CaseInfo{caseId=4, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RechargeCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">test(CaseInfo{caseId=1, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.AddCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;add&#039;, url=&#039;http://api.lemonban.com/futureloan/loan/add&#039;, type=&#039;post&#039;, param...)">test(CaseInfo{caseId=1, name='add', url='http://api.lemonban.com/futureloan/loan/add', type='post', param...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.AdminLoginCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">test(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.AuditCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;audit&#039;, url=&#039;http://api.lemonban.com/futureloan/loan/audit&#039;, type=&#039;PATCH&#039;, ...)">test(CaseInfo{caseId=1, name='audit', url='http://api.lemonban.com/futureloan/loan/audit', type='PATCH', ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.InvestCase" hash-for-method="test(CaseInfo{caseId=1, name=&#039;invest&#039;, url=&#039;http://api.lemonban.com/futureloan/member/invest&#039;, type=&#039;post...)">test(CaseInfo{caseId=1, name='invest', url='http://api.lemonban.com/futureloan/member/invest', type='post...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-xxx项目 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-xxx项目" class="hide-methods passed suite-xxx项目"> (hide)</a> <!-- hide-methods passed suite-xxx项目 -->
+                      <a href="#" panel-name="suite-xxx项目" class="show-methods passed suite-xxx项目"> (show)</a> <!-- show-methods passed suite-xxx项目 -->
+                    </span>
+                    <div class="method-list-content passed suite-xxx项目">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.LoginCase" hash-for-method="test(CaseInfo{caseId=5, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">test(CaseInfo{caseId=5, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-xxx项目" title="com.api.cases.RechargeCase" hash-for-method="test(CaseInfo{caseId=5, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">test(CaseInfo{caseId=5, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-xxx项目 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-xxx项目" class="panel xxx项目">
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.InvestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;invest&#039;, url=&#039;http://api.lemonban.com/futureloan/member/invest&#039;, type=&#039;post...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='invest', url='http://api.lemonban.com/futureloan/member/invest', type='post...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='invest', url='http://api.lemonban.com/futureloan/member/invest', type='post', params='{"member_id":"2105267","loan_id":${loan_id},amount":5000.00}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.InvestCase.test(InvestCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.AddCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;add&#039;, url=&#039;http://api.lemonban.com/futureloan/loan/add&#039;, type=&#039;post&#039;, param...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='add', url='http://api.lemonban.com/futureloan/loan/add', type='post', param...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='add', url='http://api.lemonban.com/futureloan/loan/add', type='post', params='{"member_id":"2105497","title":"报名Java全栈自动化课程"，"amount":"2000","loan_rate":12.0,"loanterm:12,"loan_date_type":1,bidding_day":5}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AddCase.test(AddCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.AdminLoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post', params='{"mobile_phone":"13322222222","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK","$.data.mobile_phone":"13355555555"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AdminLoginCase.test(AdminLoginCase.java:41)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.RechargeCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=3, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=3, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=3, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='post', params='{"member_id":"2105497","amount":"-6302"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=2, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=2, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=2, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='post', params='{"member_id":"2105497","amount":"6301111"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=4, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=4, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=4, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='post', params='{"member_id":"2105497","amount":"sss"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='post', params='{"member_id":"-1","amount":"6300"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.AuditCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;audit&#039;, url=&#039;http://api.lemonban.com/futureloan/loan/audit&#039;, type=&#039;PATCH&#039;, ...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='audit', url='http://api.lemonban.com/futureloan/loan/audit', type='PATCH', ...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='audit', url='http://api.lemonban.com/futureloan/loan/audit', type='PATCH', params='{"loan_id":${loan_id},"approved_or_not":true}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AuditCase.test(AuditCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.RegisterCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=5, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=5, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=5, name='register', url='http://api.lemonban.com/futureloan/member/register', type='post', params='{"mobile_phone":"13355555555","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='select count(*)from member where mobile_phone='13355555555';'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='register', url='http://api.lemonban.com/futureloan/member/register', type='post', params='{"mobile_phone":"13355555555","pwd":""}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=3, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=3, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=3, name='register', url='http://api.lemonban.com/futureloan/member/register', type='post', params='{"mobile_phone":"132","pwd":""}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=2, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=2, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=2, name='register', url='http://api.lemonban.com/futureloan/member/register', type='post', params='{"mobile_phone":"","pwd":"${register_pwd"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=6, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=6, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=6, name='register', url='http://api.lemonban.com/futureloan/member/register', type='post', params='{"mobile_phone":"13355555555","pwd":"12345678"}', contentType='json', expectResult='{"$.code":2,"$.msg":"账号已存在"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=4, name=&#039;register&#039;, url=&#039;http://api.lemonban.com/futureloan/member/register&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=4, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=4, name='register', url='http://api.lemonban.com/futureloan/member/register', type='post', params='{"mobile_phone":"13355555555","pwd":"1"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.api.cases.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=4, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">
+                  </a> <!-- test(CaseInfo{caseId=4, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=4, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post', params='{"mobile_phone":"13355555555","pwd":"1"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(普通会员登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=3, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">
+                  </a> <!-- test(CaseInfo{caseId=3, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=3, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post', params='{"mobile_phone":"132","pwd":""}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(普通会员登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=2, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">
+                  </a> <!-- test(CaseInfo{caseId=2, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=2, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post', params='{"mobile_phone":"","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(普通会员登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=1, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">
+                  </a> <!-- test(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post', params='{"mobile_phone":"13355555555","pwd":""}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(普通会员登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-failed -->
+          <div class="suite-xxx项目-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.cases.RechargeCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=5, name=&#039;recharge&#039;, url=&#039;http://api.lemonban.com/futureloan/member/recharge&#039;, type=&#039;...)">
+                  </a> <!-- test(CaseInfo{caseId=5, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=5, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='post', params='{"member_id":"2105497","amount":"1000"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK","$.data.mobile_phone":"13355555555"}', sql='select leave_amount from member where mobile_phone='13355555555';'})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-passed -->
+          <div class="suite-xxx项目-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.cases.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(CaseInfo{caseId=5, name=&#039;login&#039;, url=&#039;http://api.lemonban.com/futureloan/member/login&#039;, type=&#039;post&#039;,...)">
+                  </a> <!-- test(CaseInfo{caseId=5, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(CaseInfo{caseId=5, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post', params='{"mobile_phone":"13355555555","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK","$.data.mobile_phone":"13355555555"}', sql='null'})</span>
+                  <em>
+(普通会员登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-xxx项目-class-passed -->
+        </div> <!-- panel xxx项目 -->
+        <div panel-name="test-xml-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\code\idea\auto_api_v8\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;xxx项目&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;注册接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.RegisterCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 注册接口 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;登录接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.LoginCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 登录接口 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;充值接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.RechargeCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 充值接口 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;新增项目接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.AddCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 新增项目接口 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;管理员登录接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.AdminLoginCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 管理员登录接口 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;审核项目接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;5&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.AuditCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 审核项目接口 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;投资接口&quot;&gt;
+    &lt;parameter name=&quot;sheetIndex&quot; value=&quot;6&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.cases.InvestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 投资接口 --&gt;
+&lt;/suite&gt; &lt;!-- xxx项目 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for xxx项目</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">注册接口 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">登录接口 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">充值接口 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">新增项目接口 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">管理员登录接口 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">审核项目接口 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">投资接口 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for xxx项目</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for xxx项目</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_xxx项目');
+function tableData_xxx项目() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'com.api.cases.RegisterCase')
+data.setCell(0, 3, 1885);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.api.cases.RegisterCase')
+data.setCell(1, 3, 1785);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'com.api.cases.RechargeCase')
+data.setCell(2, 3, 1320);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'com.api.cases.AdminLoginCase')
+data.setCell(3, 3, 173);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'com.api.cases.LoginCase')
+data.setCell(4, 3, 168);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'com.api.cases.LoginCase')
+data.setCell(5, 3, 167);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'com.api.cases.RegisterCase')
+data.setCell(6, 3, 162);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'com.api.cases.LoginCase')
+data.setCell(7, 3, 129);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'com.api.cases.AddCase')
+data.setCell(8, 3, 125);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'com.api.cases.RechargeCase')
+data.setCell(9, 3, 124);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'com.api.cases.InvestCase')
+data.setCell(10, 3, 124);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test')
+data.setCell(11, 2, 'com.api.cases.LoginCase')
+data.setCell(11, 3, 114);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test')
+data.setCell(12, 2, 'com.api.cases.RechargeCase')
+data.setCell(12, 3, 106);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test')
+data.setCell(13, 2, 'com.api.cases.RechargeCase')
+data.setCell(13, 3, 106);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test')
+data.setCell(14, 2, 'com.api.cases.AuditCase')
+data.setCell(14, 3, 97);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test')
+data.setCell(15, 2, 'com.api.cases.RegisterCase')
+data.setCell(15, 3, 96);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test')
+data.setCell(16, 2, 'com.api.cases.LoginCase')
+data.setCell(16, 3, 96);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test')
+data.setCell(17, 2, 'com.api.cases.RechargeCase')
+data.setCell(17, 3, 94);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test')
+data.setCell(18, 2, 'com.api.cases.RegisterCase')
+data.setCell(18, 3, 93);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test')
+data.setCell(19, 2, 'com.api.cases.RegisterCase')
+data.setCell(19, 3, 93);
+window.suiteTableData['xxx项目']= { tableData: data, tableDiv: 'times-div-xxx项目'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-xxx项目">
+              </div> <!-- times-div-xxx项目 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for xxx项目</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-xxx项目" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.InvestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.RegisterCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(0)</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</span>
+                <span class="method-start">939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=2, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</span>
+                <span class="method-start">2806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=3, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</span>
+                <span class="method-start">2907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=4, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</span>
+                <span class="method-start">3004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=5, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</span>
+                <span class="method-start">3103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=6, name='register', url='http://api.lemonban.com/futureloan/member/register', type='...)</span>
+                <span class="method-start">4991 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.LoginCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(1)</span>
+                <span class="method-start">5215 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</span>
+                <span class="method-start">5297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=2, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</span>
+                <span class="method-start">5438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=3, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</span>
+                <span class="method-start">5539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=4, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</span>
+                <span class="method-start">5657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(CaseInfo{caseId=5, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</span>
+                <span class="method-start">5828 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.RechargeCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(2)</span>
+                <span class="method-start">6020 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</span>
+                <span class="method-start">6169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=2, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</span>
+                <span class="method-start">6265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=3, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</span>
+                <span class="method-start">6392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=4, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</span>
+                <span class="method-start">6502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(CaseInfo{caseId=5, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', type='...)</span>
+                <span class="method-start">6612 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.AddCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(3)</span>
+                <span class="method-start">7947 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='add', url='http://api.lemonban.com/futureloan/loan/add', type='post', param...)</span>
+                <span class="method-start">7999 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.AdminLoginCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(4)</span>
+                <span class="method-start">8145 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='login', url='http://api.lemonban.com/futureloan/member/login', type='post',...)</span>
+                <span class="method-start">8269 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.AuditCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(5)</span>
+                <span class="method-start">8461 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='audit', url='http://api.lemonban.com/futureloan/loan/audit', type='PATCH', ...)</span>
+                <span class="method-start">8571 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.cases.InvestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(6)</span>
+                <span class="method-start">8673 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(CaseInfo{caseId=1, name='invest', url='http://api.lemonban.com/futureloan/member/invest', type='post...)</span>
+                <span class="method-start">8713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">finish</span>
+                <span class="method-start">8852 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

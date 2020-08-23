@@ -1,0 +1,1 @@
+{"uuid":"df077180-a197-42a3-879d-ffcd04376823","name":"com.api.cases.AuditCase","children":["363c735b-71f9-4a90-ac02-519fddd7d1ba"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1598156061489,"stop":1598156061489}],"afters":[],"links":[],"start":1598156061487,"stop":1598156061699}

@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 10.32 s <<< FAILURE! - in TestSuite
+test(com.api.cases.RegisterCase)  Time elapsed: 1.824 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+
+test(com.api.cases.RegisterCase)  Time elapsed: 0.1 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+
+test(com.api.cases.RegisterCase)  Time elapsed: 0.094 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+
+test(com.api.cases.RegisterCase)  Time elapsed: 0.096 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+
+test(com.api.cases.RegisterCase)  Time elapsed: 1.884 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+
+test(com.api.cases.RegisterCase)  Time elapsed: 0.162 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RegisterCase.test(RegisterCase.java:47)
+
+test(com.api.cases.LoginCase)  Time elapsed: 0.138 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+
+test(com.api.cases.LoginCase)  Time elapsed: 0.097 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+
+test(com.api.cases.LoginCase)  Time elapsed: 0.112 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+
+test(com.api.cases.LoginCase)  Time elapsed: 0.165 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.LoginCase.test(LoginCase.java:44)
+
+test(com.api.cases.RechargeCase)  Time elapsed: 0.095 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+
+test(com.api.cases.RechargeCase)  Time elapsed: 0.125 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+
+test(com.api.cases.RechargeCase)  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+
+test(com.api.cases.RechargeCase)  Time elapsed: 0.109 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.RechargeCase.test(RechargeCase.java:47)
+
+test(com.api.cases.AddCase)  Time elapsed: 0.129 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AddCase.test(AddCase.java:44)
+
+test(com.api.cases.AdminLoginCase)  Time elapsed: 0.179 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AdminLoginCase.test(AdminLoginCase.java:41)
+
+test(com.api.cases.AuditCase)  Time elapsed: 0.097 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.AuditCase.test(AuditCase.java:44)
+
+test(com.api.cases.InvestCase)  Time elapsed: 0.129 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.api.cases.InvestCase.test(InvestCase.java:44)
+

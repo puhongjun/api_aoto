@@ -1,0 +1,1 @@
+{"uuid":"708c7318-f884-4706-a8aa-90db998bd09b","name":"com.api.cases.AdminLoginCase","children":["8269c049-3afd-4c59-81b1-ab4775d89d1a"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1598156061173,"stop":1598156061173}],"afters":[],"links":[],"start":1598156061171,"stop":1598156061485}

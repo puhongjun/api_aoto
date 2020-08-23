@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auto_api_v7" />
+        <module name="auto_api_v8" />
+        <module name="auto_api_v5" />
+        <module name="auto_api_v6" />
+        <module name="auto_api" />
+        <module name="auto_api_v3" />
+        <module name="auto_api_v4" />
+        <module name="auto_api_v2" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

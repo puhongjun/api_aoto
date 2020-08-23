@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [xxx项目]">
+  <test thread-count="5" verbose="0" name="注册接口(failed)">
+    <parameter name="sheetIndex" value="0"/>
+    <classes>
+      <class name="com.api.cases.RegisterCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="init"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.RegisterCase -->
+    </classes>
+  </test> <!-- 注册接口(failed) -->
+  <test thread-count="5" verbose="0" name="登录接口(failed)">
+    <parameter name="sheetIndex" value="1"/>
+    <classes>
+      <class name="com.api.cases.LoginCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
+          <include name="init"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.LoginCase -->
+    </classes>
+  </test> <!-- 登录接口(failed) -->
+  <test thread-count="5" verbose="0" name="充值接口(failed)">
+    <parameter name="sheetIndex" value="2"/>
+    <classes>
+      <class name="com.api.cases.RechargeCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
+          <include name="init"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.RechargeCase -->
+    </classes>
+  </test> <!-- 充值接口(failed) -->
+  <test thread-count="5" verbose="0" name="新增项目接口(failed)">
+    <parameter name="sheetIndex" value="3"/>
+    <classes>
+      <class name="com.api.cases.AddCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.AddCase -->
+    </classes>
+  </test> <!-- 新增项目接口(failed) -->
+  <test thread-count="5" verbose="0" name="管理员登录接口(failed)">
+    <parameter name="sheetIndex" value="4"/>
+    <classes>
+      <class name="com.api.cases.AdminLoginCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.AdminLoginCase -->
+    </classes>
+  </test> <!-- 管理员登录接口(failed) -->
+  <test thread-count="5" verbose="0" name="审核项目接口(failed)">
+    <parameter name="sheetIndex" value="5"/>
+    <classes>
+      <class name="com.api.cases.AuditCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="init"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.AuditCase -->
+    </classes>
+  </test> <!-- 审核项目接口(failed) -->
+  <test thread-count="5" verbose="0" name="投资接口(failed)">
+    <parameter name="sheetIndex" value="6"/>
+    <classes>
+      <class name="com.api.cases.InvestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="init"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="finish"/>
+        </methods>
+      </class> <!-- com.api.cases.InvestCase -->
+    </classes>
+  </test> <!-- 投资接口(failed) -->
+</suite> <!-- Failed suite [xxx项目] -->

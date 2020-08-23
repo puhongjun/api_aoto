@@ -1,0 +1,1 @@
+{"uuid":"b73b873d-17c4-4ccf-b2f3-4fa7bc9e7799","name":"com.api.cases.AddCase","children":["301f8417-3364-4a8c-957e-37ab5091f779"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1598156060975,"stop":1598156060975}],"afters":[],"links":[],"start":1598156060974,"stop":1598156061169}
